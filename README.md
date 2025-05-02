@@ -42,6 +42,7 @@ src/
 │   ├── RevealOnScroll.jsx
 │   └── ThemeToggle.jsx
 ├── App.jsx
+├── App.css
 ├── main.jsx
 ├── index.css
 </pre>
@@ -63,13 +64,21 @@ cd portfolio
 npm install
 ```
 
-3. **Start the development server**
+3. **Create a `.env` file with your EmailJS credentials**
+
+```env
+VITE_SERVICE_ID=your_service_id
+VITE_TEMPLATE_ID=your_template_id
+VITE_PUBLIC_KEY=your_public_key
+```
+
+4. **Start the development server**
 
 ```bash
 npm run dev
 ```
 
-4. **Build for production**
+5. **Build for production**
 
 ```bash
 npm run build

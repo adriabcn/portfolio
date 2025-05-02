@@ -71,7 +71,7 @@ export const About = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
                         <div className="p-6 rounded-xl border-black/10 dark:border-white/10 border hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-4">Education</h3>
-                            <div className="space-y-4 text-gray-300">
+                            <div className="space-y-4 text-gray-500 dark:text-gray-300">
                                 <div>
                                     Bachelor's degree in Translation and Interpreting
                                     <p className="text-gray-400 mb-2">UPF (Barcelona, 2021-2025)</p>
@@ -92,7 +92,7 @@ export const About = () => {
                         </div>
                         <div className="p-6 rounded-xl border-black/10 dark:border-white/10 border hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-4">Certified Languages</h3>
-                            <div className="space-y-4 text-gray-300">
+                            <div className="space-y-4 text-gray-500 dark:text-gray-300">
                                 <div>
                                     <h4>Catalan</h4>
                                     <p className="text-gray-400 mb-2">Native + Professional Translation Skills</p>
@@ -119,7 +119,7 @@ export const About = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
                         <div className="p-6 rounded-xl border-black/10 dark:border-white/10 border hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-4">Hobbies</h3>
-                            <ul className="list-disc list-inside text-gray-300 space-y-2">
+                            <ul className="list-disc list-inside text-gray-500 dark:text-gray-300 space-y-2">
                                 <li>Read books;</li>
                                 <li>Travel around the world;</li>
                                 <li>Drink coffee;</li>
@@ -129,7 +129,7 @@ export const About = () => {
                         </div>
                         <div className="p-6 rounded-xl border-black/10 dark:border-white/10 border hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-4">Featured Certifications</h3>
-                            <div className="space-y-4 text-gray-300">
+                            <div className="space-y-4 text-gray-500 dark:text-gray-300">
                                 <div>
                                     <h4>DevOps Career | AWS, Linux, Scripting, Jenkins, Ansible, GitOps, Docker, Kubernetes, & Terraform.</h4>
                                     <p className="text-gray-400 mb-2">Udemy</p>

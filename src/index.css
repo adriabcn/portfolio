@@ -49,4 +49,45 @@ html, body {
     transform: translateY(0);
   }
   /* End Reveal On Scroll */
+
+  /* Navbar underline */
+  .active-link {
+    position: relative;
+  }
+  
+  .active-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 2px;
+    background-color: #3b82f6; /* blue-500 */
+    transform: scaleX(1); /* <-- directamente en 1 */
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+    opacity: 1; /* visible */
+  }
+
+  .link-underline {
+    position: relative;
+  }
+
+  .link-underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 2px;
+    background-color: #3b82f6; /* azul blue-500 */
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease-out; /* ⬅️ controla la velocidad */
+  }
+
+  .active-link::after {
+    transform: scaleX(1);
+  }
+  /* End Navbar underline */
 }

@@ -2,6 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
+    <script>
+      const saved = localStorage.getItem("isDarkmode");
+      const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    
+      if (saved === "true" || (!saved && prefersDark)) {
+        document.documentElement.classList.add("dark");
+      }
+    </script>
+
     <link rel="icon" type="image/svg+xml" href="/favicon.png" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">

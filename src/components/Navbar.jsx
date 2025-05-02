@@ -11,7 +11,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
         <nav className="fixed top-0 w-full z-40 bg-[rgba(10, 10, 10, 0.8)] backdrop-blur-lg border-b-white/10 shadow-lg">
             <div className="max-w-5xl mx-auto px-4">
                 <div className="flex justify-between items-center h-16">
-                    <a href="/" target="_self" className="font-mono text-xl font-bold text-white">Adrià Aubanell</a>
+                    <a href="/" target="_self" className="font-mono text-xl font-bold text-black dark:text-white">Adrià Aubanell</a>
 
                     {/*Mobile menu*/}
                     <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden" onClick={() => setMenuOpen((prev) => !prev)}>
@@ -24,7 +24,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                             to="home" 
                             smooth={true}
                             duration={500} 
-                            className="cursor-pointer text-gray-600 hover:text-blue-500 transition-colors"
+                            className="cursor-pointer text-black dark:text-gray-600 hover:text-blue-500 transition-colors"
                         >
                             Home
                         </Link>
@@ -34,7 +34,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                             duration={500}
                             spy={true}
                             activeClass="active-link"
-                            className="link-underline cursor-pointer text-gray-600 hover:text-blue-500 transition-colors"
+                            className="link-underline cursor-pointer text-black dark:text-gray-600 hover:text-blue-500 transition-colors"
                         >
                             About
                         </Link> 
@@ -44,7 +44,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                             duration={500}
                             spy={true}
                             activeClass="active-link" 
-                            className="link-underline cursor-pointer text-gray-600 hover:text-blue-500 transition-colors"
+                            className="link-underline cursor-pointer text-black dark:text-gray-600 hover:text-blue-500 transition-colors"
                         >
                             Projects
                         </Link> 
@@ -54,11 +54,12 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                             duration={500}
                             spy={true}
                             activeClass="active-link" 
-                            className="link-underline cursor-pointer text-gray-600 hover:text-blue-500 transition-colors"
+                            className="link-underline cursor-pointer text-black dark:text-gray-600 hover:text-blue-500 transition-colors"
                         >
                             Contact
                         </Link>
                     </div>
+
                 </div>
             </div>
         </nav>

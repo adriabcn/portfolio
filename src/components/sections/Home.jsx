@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import { ThemeToggle } from "../ThemeToggle";
 import { Link } from "react-scroll";
 
 
@@ -13,7 +14,7 @@ export const Home = () => {
                         Hi, I'm Adrià.
                     </h1>
 
-                    <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
+                    <p className="text-black dark:text-gray-400 text-lg mb-8 max-w-lg mx-auto">
                         Welcome to my Portfolio!
                     </p>
 
@@ -34,6 +35,9 @@ export const Home = () => {
                         >
                             Contact Me
                         </Link>
+                    </div>
+                    <div className="flex justify-center space-x-4 mt-4">
+                        <ThemeToggle />
                     </div>
                 </div>
             </RevealOnScroll>

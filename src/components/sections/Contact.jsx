@@ -40,7 +40,7 @@ export const Contact = () => {
                                 id="name" 
                                 name="name" 
                                 required 
-                                className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
+                                className="w-full bg-white/5 border border-black/10 dark:border-white/10 rounded px-4 py-3 text-black dark:text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
                                 onChange={(e) => setFormData({...formData, name: e.target.value})} 
                             />
                         </div>
@@ -52,7 +52,7 @@ export const Contact = () => {
                                 id="email" 
                                 name="email" 
                                 required 
-                                className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
+                                className="w-full bg-white/5 border border-black/10 dark:border-white/10 rounded px-4 py-3 text-black dark:text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
                                 onChange={(e) => setFormData({...formData, email: e.target.value})}
                             />
                         </div>
@@ -64,7 +64,7 @@ export const Contact = () => {
                                 name="message"
                                 rows={5}
                                 required 
-                                className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
+                                className="w-full bg-white/5 border border-black/10 dark:border-white/10 rounded px-4 py-3 text-black dark:text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
                                 onChange={(e) => setFormData({...formData, message: e.target.value})}
                             />
                         </div>

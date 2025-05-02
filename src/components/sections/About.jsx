@@ -19,7 +19,7 @@ export const About = () => {
                     <p className="text-gray-400 text-lg mb-8 max-w-2xl mx-auto text-center">
                         I am a curious developer who loves learning and exploring new things, always looking for new challenges to grow and refine my skills.
                     </p>
-                    <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
+                    <div className="rounded-xl p-8 border-black/10 dark:border-white/10 border hover:-translate-y-1 transition-all">
                         
                         <h3 className="text-xl font-bold mb-4">Skills and Programs</h3>
 
@@ -69,7 +69,7 @@ export const About = () => {
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                        <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                        <div className="p-6 rounded-xl border-black/10 dark:border-white/10 border hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-4">Education</h3>
                             <div className="space-y-4 text-gray-300">
                                 <div>
@@ -90,7 +90,7 @@ export const About = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                        <div className="p-6 rounded-xl border-black/10 dark:border-white/10 border hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-4">Certified Languages</h3>
                             <div className="space-y-4 text-gray-300">
                                 <div>
@@ -117,7 +117,7 @@ export const About = () => {
                         </div>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
-                        <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                        <div className="p-6 rounded-xl border-black/10 dark:border-white/10 border hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-4">Hobbies</h3>
                             <ul className="list-disc list-inside text-gray-300 space-y-2">
                                 <li>Read books;</li>
@@ -127,7 +127,7 @@ export const About = () => {
                                 <li>Learn new things.</li>
                             </ul>
                         </div>
-                        <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                        <div className="p-6 rounded-xl border-black/10 dark:border-white/10 border hover:-translate-y-1 transition-all">
                             <h3 className="text-xl font-bold mb-4">Featured Certifications</h3>
                             <div className="space-y-4 text-gray-300">
                                 <div>

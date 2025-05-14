@@ -97,4 +97,27 @@
     transform: scaleX(1);
   }
   /* End Navbar underline */
+
+  /* Carousel */
+  .carousel {
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    display: inline-flex;
+    overflow-x: scroll;
+  }
+  .carousel-end .carousel-item {
+    scroll-snap-align: end;
+  }
+  .carousel-item {
+    box-sizing: content-box;
+    scroll-snap-align: start;
+    flex: none;
+    display: flex;
+  }
+
+  .carousel-center .carousel-item {
+    scroll-snap-align: center;
+  }
+  /* End Carousel */
 }

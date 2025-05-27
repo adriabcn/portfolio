@@ -23,6 +23,8 @@ A modern, responsive portfolio website built with **React**, **Vite**, and **Tai
 - [Tailwind CSS](https://tailwindcss.com/) – Styling
 - [react-scroll](https://www.npmjs.com/package/react-scroll) – Smooth scrolling
 - [EmailJS](https://www.emailjs.com/) – For contact form integration *(if used)*
+- [GSAP](https://gsap.com/) – Animations and motion effects
+- [SplitType](https://www.npmjs.com/package/split-type) – Text splitting for animations
 
 ---
 
@@ -36,6 +38,8 @@ src/
 │   │   ├── Contact.jsx
 │   │   ├── Home.jsx
 │   │   └── Projects.jsx
+│   ├── AnimatedText.jsx
+│   ├── FlippingI.jsx
 │   ├── LoadingScreen.jsx
 │   ├── MobileMenu.jsx
 │   ├── Navbar.jsx
@@ -54,7 +58,7 @@ src/
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/adriabcn/portfolio.git
 cd portfolio
 ```
 

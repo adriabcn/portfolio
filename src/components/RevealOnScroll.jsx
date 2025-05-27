@@ -3,10 +3,10 @@ import { useEffect, useRef } from "react";
 
 export const RevealOnScroll = ({ children }) => {
 
-    const ref = useRef(null);
+  const ref = useRef(null);
 
-    useEffect(() => {
-        const isMobile = window.innerWidth <= 768;
+  useEffect(() => {
+    const isMobile = window.innerWidth <= 768;
 
     if (isMobile) {
       ref.current?.classList.add("visible");
@@ -33,7 +33,7 @@ export const RevealOnScroll = ({ children }) => {
     return () => observer.disconnect();
   }, []);
 
-    return (
-        <div ref={ref} className="reveal"> {children} </div>
-    );
+  return (
+    <div ref={ref} className="reveal"> {children} </div>
+  );
 }

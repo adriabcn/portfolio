@@ -3,8 +3,11 @@ import { gsap } from "gsap";
 
 export const FlippingI = () => {
   const iRef = useRef(null);
+  const isMobile = window.innerWidth <= 768;
 
   useEffect(() => {
+    if (isMobile) return;
+
     gsap.set(iRef.current, {
       transformPerspective: 800,
       transformStyle: "preserve-3d",
@@ -22,6 +25,7 @@ export const FlippingI = () => {
   return (
     <span
       ref={iRef}
+      className={isMobile ? "text-[#00c5f7]" : ""}
       style={{
         display: "inline-block",
         transformOrigin: "center center",
